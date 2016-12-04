@@ -9,6 +9,7 @@ $ cmake ..
 $ make
 $ cd ../..
 $ g++ src/myint.cpp test/gtest_myint.cpp -I include/ -I extsrc/googletest/include/ -L extsrc/googletest/build -lgtest_main -lgtest -pthread
+$ ./a.out
 ```
 
 google test ‚Í 1.7.0 ‚ğg—p‚·‚é‚æ‚¤‚É‚µ‚Ä‚¢‚éB
